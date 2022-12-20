@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>計算機</title>
+    </head>
+    <body>
+        <h1>計算機</h1>
+        <div id="calculator">
+            <input type="text" id="inp">
+            <div class="keys white" onclick="add()">+</div>
+            <div class="keys white" onclick="sub()">-</div>
+            <div class="keys white" onclick="mul()">&times;</div>
+            <div class="keys white" onclick="div()">÷</div>
+            <div class="keys" onclick="clickbt('7')">7</div>
+            <div class="keys" onclick="clickbt('8')">8</div>
+            <div class="keys" onclick="clickbt('9')">9</div>
+            <div class="keys" id="hbtn" onclick="getcount()">=</div>
+            <div class="keys" onclick="clickbt('4')">4</div>
+            <div class="keys" onclick="clickbt('5')">5</div>
+            <div class="keys" onclick="clickbt('6')">6</div>
+            <div class="keys" onclick="clickbt('1')">1</div>
+            <div class="keys" onclick="clickbt('2')">2</div>
+            <div class="keys" onclick="clickbt('3')">3</div>
+            <div class="keys" onclick="clickbt('0')">0</div>
+            <div class="keys" onclick="dot()">.</div>
+            <div class="keys" onclick="allclear()">AC</div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
